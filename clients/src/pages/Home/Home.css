@@ -1,0 +1,124 @@
+.Home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  position: relative;
+}
+
+.Background {
+  height: "100%";
+
+  background-color: black;
+  color: black;
+}
+
+.Border {
+  display: flex;
+  width: 600px;
+  height: 10px;
+  background-color: rgb(29, 32, 34);
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: rgb(47, 51, 54);
+  padding-top: 0px;
+}
+
+.Post {
+  width: 350px;
+  display: grid;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(47, 51, 54);
+}
+
+.Image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Image img {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+}
+
+.Name {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  color: rgb(119, 110, 110);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.Content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+.Title {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  width: 100%;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.Description {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.Author {
+  padding-right: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.Like {
+  color: rgb(47, 51, 54);
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  margin-right: 20px;
+  background-color: black;
+}
+
+.Like :hover {
+  cursor: pointer;
+  color: white;
+}
+
+.Like :active {
+  color: rgb(47, 51, 54);
+}
+
+.Alike {
+  display: flex;
+  flex-direction: row;
+}
+
+.Amount {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  padding-right: 5px;
+  justify-content: flex-end;
+}

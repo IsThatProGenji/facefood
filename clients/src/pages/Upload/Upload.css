@@ -1,0 +1,51 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  width: 100%;
+  background-color: black;
+}
+
+.Upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin-left: 200px;
+  padding-bottom: 400px;
+  background-color: black;
+  color: white;
+}
+
+.UploadForm {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.UploadForm input,
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 50px;
+  font-size: large;
+  color: black;
+}
+
+.RegisterForm button {
+  width: 250px;
+  color: black;
+}
+
+.RegisterForm button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  color: white;
+}

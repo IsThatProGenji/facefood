@@ -1,0 +1,94 @@
+.Navbar {
+  display: flex;
+  height: 80px;
+  background-color: black;
+}
+
+.Navbar a {
+  font-size: 20px;
+  font-weight: bold;
+  width: 145px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.Navbar b {
+  font-size: 20px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.Navbar b:hover {
+  cursor: pointer;
+
+  color: rgb(255, 159, 68);
+}
+.Navbar a:hover {
+  cursor: pointer;
+
+  color: rgb(255, 159, 68);
+}
+
+.Navbar button {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  color: white;
+  background: none;
+  border: none;
+  width: 145px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.Navbar button:hover {
+  cursor: pointer;
+  color: rgb(255, 43, 43);
+}
+
+red .Logout {
+  display: flex;
+  background-color: black;
+}
+
+.Profile {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Profileimg {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Homeimg {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Uploadimg {
+  display: flex;
+  justify-content: space-around;
+}
+.Logout {
+  display: flex;
+  justify-content: space-around;
+}

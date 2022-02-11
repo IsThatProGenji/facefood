@@ -1,0 +1,66 @@
+.Backgroundp {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 28px;
+  width: "100%";
+  flex: 1;
+  background-color: black;
+}
+.outer {
+  display: flex;
+  width: "100%";
+  background-color: black;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.Back {
+  background-color: black;
+  padding-top: 0px;
+}
+
+.Postp {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+.titlep {
+  color: black;
+  font-weight: bold;
+}
+.Amountp {
+  display: flex;
+  color: none;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 300px;
+
+  width: 300px;
+}
+.Amountp:hover {
+  background-color: black;
+  opacity: 1;
+  color: white;
+}
+.Imagep :hover {
+  opacity: 0.5;
+}
+
+.Imagep {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Imagep img {
+  width: 300px;
+  height: 300px;
+
+  object-fit: cover;
+}

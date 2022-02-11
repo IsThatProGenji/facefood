@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "react-scripts": "^4.0.3",
+    "react.build": "^1.0.5"
+  },
+  "devDependencies": {
+    "prettier": "2.3.0"
+  }
+}
